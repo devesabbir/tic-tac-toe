@@ -1,11 +1,23 @@
-import Sqare from "./../sqare/Sqare";
+import Square from "../square/Square";
 
 export default function Board() {
   return (
     <div>
-      <Sqare />
-      <Sqare />
-      <Sqare />
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div>
+        <Square />
+        <Square />
+        <Square />
+      </div>
     </div>
   );
 }
