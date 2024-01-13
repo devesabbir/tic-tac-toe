@@ -1,9 +1,9 @@
-import Board from "./components/board/Board";
+import Game from "./components/game/Game";
 
 function App() {
   return (
     <>
-      <Board />
+      <Game />
     </>
   );
 }
